@@ -10,7 +10,22 @@
 			"name": "Get All Songs",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/music",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"music"
+					]
+				}
 			},
 			"response": []
 		},
@@ -18,7 +33,24 @@
 			"name": "Get Song By ID",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/music/1/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"music",
+						"1",
+						""
+					]
+				}
 			},
 			"response": []
 		},
@@ -37,7 +69,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/songs/",
+					"raw": "http://127.0.0.1:8000/api/music/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -48,7 +80,7 @@
 					"port": "8000",
 					"path": [
 						"api",
-						"songs",
+						"music",
 						""
 					]
 				}
@@ -70,7 +102,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/songs/4/",
+					"raw": "http://127.0.0.1:8000/api/music/5/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -81,8 +113,8 @@
 					"port": "8000",
 					"path": [
 						"api",
-						"songs",
-						"4",
+						"music",
+						"5",
 						""
 					]
 				}
